@@ -4,28 +4,26 @@ import './App.css';
 import Home from './components/HomeComponent'
 import Contact from './components/ContactComponent'
 import Projects from './components/ProjectsComponent'
-import Skills from './components/SkillsComponent'
-import { Switch, Route, Redirect, BrowserRouter,Link } from 'react-router-dom'
+import Resume from './components/Resume'
+import { Switch, Route, Redirect, BrowserRouter, Link } from 'react-router-dom'
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 function App() {
   return (
     <BrowserRouter>
       <div className="demo-big-content">
         <Layout fixedHeader>
-          <Header title="MUDIT SHARMA" style={{ color: 'white' }}>
+          <Header title={<Link to="/home" style={{ color: 'white', textDecoration: 'none' }}>MUDIT SHARMA</Link>}>
             <Navigation>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
+              <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
           <Drawer>
             <Navigation>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
+              <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
             </Navigation>
           </Drawer>
           <Content>
@@ -33,7 +31,7 @@ function App() {
             <Switch>
               <Route path="/home" component={() => <Home />} />
               <Route path="/contact" component={() => <Contact />} />
-              <Route path="/skills" component={() => <Skills />} />
+              <Route path="/resume" component={() => <Resume />} />
               <Route path="/projects" component={() => <Projects />} />
               <Redirect to="/home" />
             </Switch>
