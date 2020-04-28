@@ -3,13 +3,16 @@ import { Card, CardText, CardTitle, CardActions, Grid, Cell, Button } from 'reac
 import Zoom from 'react-reveal/Zoom';
 function RenderCard({ title, text, tech, clas }) {
     return (
-        <Card className="cardTrans" shadow={5} style={{ width: '100%', margin: 'auto', height: '400px' }} >
+        <Card className="cardTrans" shadow={5} style={{ width: '90%', height: '300px'}} >
             <CardTitle expand className={clas} >{title}</CardTitle>
-            <CardText>
-                    
-                    <p>{text}</p>
+            <span  className="cardText">
+                <CardText>
+                    <p>
+                    {text}
                     Tech-Stack: {tech}
+                    </p>
             </CardText>
+            </span>
             <CardActions border>
                 <Button colored>GITHUB</Button>
             </CardActions>

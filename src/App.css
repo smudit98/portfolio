@@ -55,16 +55,17 @@
 .homepage {
   height: 100%;
   width: 100%;
-  background-color: #f7f7f7;
+  background-color: #f0eeee;
   text-align: center;
   text-shadow: 10px;
   font-weight: 700;
   font-size: 5em;
 }
 .mdl-layout__header {
-  background-color: #f7f7f7;
+  background-color: #dfdddd;
   border-color: #e7e7e7;
   box-shadow: none;
+  
 }
 .mdl-layout__header-row .mdl-navigation__link {
   color: black;
@@ -105,4 +106,18 @@
 }
 .banner-text hr{
   margin: 10px;
+}
+.cardTrans{
+  border-radius:10px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.cardTrans span{
+  height:0px;
+  opacity:0;
+  transition: 1s ease;
+}
+.cardTrans:hover span{
+  height:200px;
+  opacity:1;
 }
