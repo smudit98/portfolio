@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-nav" title={<Link to="/home" style={{ color: '#777', textDecoration: 'none' }}>MUDIT SHARMA</Link>}>
+          <Header title={<Link to="/home" className="header-name" style={{textDecoration:'none'}}>MUDIT SHARMA</Link>}>
             <Navigation >
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>

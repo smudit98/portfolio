@@ -1,3 +1,6 @@
+body{
+  font-family: 'Cabin', sans-serif;
+}
 .progressSpan {
   width: 100%;
   background-color: rgb(250, 250, 250);
@@ -5,7 +8,7 @@
   opacity: 1;
 }
 .progressbar {
-  background-color: blue;
+  background-color: #418ce4;
   height: 10px;
   transition: 1s ease;
   transition-delay: 0.5s;
@@ -21,19 +24,24 @@
 .resumeLeft {
   padding-left: 20px;
   padding-right: 20px;
+  background-color: white;
+}
+.portfolio{
+  background-image: url(assets/portfolio.png);
+  background-size: cover;
 }
 .colorgame {
-  background-image: url(assets/color-game.png);
+  background-image: url(assets/color-game\ \(1\).png);
   background-size: cover;
   background-position: center;
 }
 .bookit {
-  background-image: url(assets/java.png);
+  background-image: url(assets/java\ \(1\).png);
   background-size: cover;
   background-position: center;
 }
 .foodkart {
-  background-image: url(assets/foodkart.jpg);
+  background-image: url(assets/foodkart.png);
   background-size: cover;
 }
 .projectGrid {
@@ -44,6 +52,8 @@
 .myPic {
   background-image: url(assets/me.jpeg);
   background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
   background-position: center;
   height: 350px;
 }
@@ -53,16 +63,19 @@
   transition-duration: 0.5s;
 }
 .homepage {
+  overflow: hidden;
+  padding-top: 8%;
+  padding-left: 5%;
+  background-image: url(assets/background.jpg);
+  background-size: cover;
   height: 100%;
   width: 100%;
-  background-color: #f0eeee;
-  text-align: center;
   text-shadow: 10px;
   font-weight: 700;
   font-size: 5em;
 }
 .mdl-layout__header {
-  background-color: #dfdddd;
+  background-color: white;
   border-color: #e7e7e7;
   box-shadow: none;
   
@@ -70,8 +83,27 @@
 .mdl-layout__header-row .mdl-navigation__link {
   color: black;
 }
+.mdl-layout__header-row .mdl-navigation__link:hover {
+  color: white;
+  background-color: #418ce3;
+  transition: ease;
+  text-decoration: none;
+}
+.mdl-layout__header-row .mdl-navigation__link:focus{
+  color: white;
+  background-color: #418ce3;
+  text-decoration: none;
+}
 .mdl-layout__drawer-button {
-  color: black
+  color: black;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+  font-size: 15px;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
+  background-color: #418ce3;
+  color:white;
+  text-decoration:none;
 }
 .social-links{
   padding-top: 10px;
@@ -82,42 +114,97 @@
   padding: 10px;
 }
 .banner-text{
-  margin-top: 15%;
-  padding-top: 20px;
   padding-bottom: 20px;
-  margin-left: 10%;
+  margin-left:0;
   margin-right: 10%;
   border-radius: 10px;
   margin-bottom: 20%;
 }
 .banner-text h2{
   text-shadow: black;
-  color:#524d4d;
-  padding: 0;
-  font-weight: 800;
+  color: #0abde3;
+  padding-bottom: 15px;
+  font-family: 'Cabin', sans-serif;
+  font-weight:700;
+  font-size: 60px;
   margin-bottom: 5px;
+  text-align: left;
 }
 .banner-text p{
   padding-top: 10px;
   text-shadow: black;
-  font-size: medium;
-  font-weight: 700;
-  color:#908c8c;
+  font-family: 'Cabin', sans-serif;
+  font-weight:500;
+  font-size: 30px ;
+  color:White;
+  text-align: left;
+}
+.subline{
+  padding-top: 10px;
+  text-shadow: black;
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  color:#17252a;
+  text-align: left;
 }
 .banner-text hr{
   margin: 10px;
+  margin-left: 0;
+  width: 50%;
 }
 .cardTrans{
-  border-radius:10px;
+  border-radius:7px;
   margin: auto;
   margin-bottom: 20px;
 }
 .cardTrans span{
   height:0px;
   opacity:0;
-  transition: 1s ease;
+  transition: .4s ease;
 }
 .cardTrans:hover span{
   height:200px;
   opacity:1;
+}
+.grad{
+  background: linear-gradient(90deg, #2473b4 50%, #f8f8f8 50%);
+}
+.header-name{
+  font-family: 'Cabin', sans-serif;
+  font-weight:800;
+  text-decoration: none;
+  color: #032633;
+  font-size: 20px;
+}
+.description{
+  font-size:13px;
+  font-weight: 600;
+  color:white;
+  letter-spacing: .5px;
+  line-height: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.knowmoreButton{
+  margin-top: 20px;
+  background-color: #2473b4;
+  border-radius: 5px;
+  text-transform: none;
+  color:white;
+  font-weight:600;
+}
+.knowMoreButton:active{
+  border: none;
+}
+
+.mdl-card__title-text{
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  text-shadow: 1px 1px #336fb4;
+  
+}
+.projectBG{
+  background-color: #141414;
 }

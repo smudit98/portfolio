@@ -6,17 +6,17 @@ function Skills(){
         <div classname="container">
             <h3>Skills</h3>
             <p>Java</p>
-            <Progress percent="80"/>
+            <Progress percent="90"/>
             <p>ReactJS</p>
-            <Progress percent="50"/>
+            <Progress percent="70"/>
             <p>C</p>
-            <Progress percent="60"/>
+            <Progress percent="70"/>
             <p>HTML/CSS/Javascript</p>
-            <Progress percent="60"/>
+            <Progress percent="70"/>
             <p>Xamarin</p>
-            <Progress percent="40"/>
+            <Progress percent="55"/>
             <p>C#</p>
-            <Progress percent="40"/>
+            <Progress percent="50"/>
 
         </div>
     );

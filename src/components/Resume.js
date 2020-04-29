@@ -8,7 +8,7 @@ function Resume() {
     return (
         <div classname="container">
             <Grid className="resume">
-                <Cell col={4} className="resumeRight">
+                <Cell col={4} className="resumeLeft">
                     <Grid>
                         <Cell col={12} className="myPic">
                         </Cell>

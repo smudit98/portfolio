@@ -21,12 +21,13 @@ function RenderCard({ title, text, tech, clas }) {
 }
 function Projects() {
     return (
-        <div>
+        <div className="projectBG">
             
             <Grid style={{ padding: '20px' }} className="projectGrid">
                 <Cell expand col={5}>
                     <RenderCard title="Portfolio" text="I took up this website as a project to leverage my front end development skills"
-                    tech="ReactJS, HTML, CSS" />
+                    tech="ReactJS, HTML, CSS" 
+                    clas="portfolio"/>
                 </Cell>
                 <Cell expand col={5}>
                     <RenderCard title="FoodKart" text="A Cross-Platform Mobile Application built using the Model-View-ViewModel Design pattern"
