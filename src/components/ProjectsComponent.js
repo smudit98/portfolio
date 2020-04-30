@@ -9,6 +9,7 @@ function RenderCard({ title, text, tech, clas }) {
                 <CardText>
                     <p>
                     {text}
+                    <br/>
                     Tech-Stack: {tech}
                     </p>
             </CardText>

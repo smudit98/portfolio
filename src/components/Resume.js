@@ -17,7 +17,7 @@ function Resume() {
                             <h4>Student</h4>
                             <hr/>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            An inquisitive learner seeking to leverage analytical,coding and leadership skills working on projects
                             </p>
                             <hr/>
                             <span><span className="fa fa-map-marker fa-lg"></span>  Gurgaon</span>
@@ -35,9 +35,11 @@ function Resume() {
                 <Cell col={8} className="resumeRight">
                     <Fade>
                     <Skills />
+                    <hr/>
                     </Fade>
                     <Fade>
                     <Exerience/>
+                    <hr/>
                     </Fade>
                     <Fade>
                     <Education/>

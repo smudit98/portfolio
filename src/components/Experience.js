@@ -6,14 +6,16 @@ function Experience(){
             <h3>Experience</h3>
             <Grid>
                 <Cell col={4}>
-                    <p>June 2019 - July 2019</p>
+                    <p><br/>June 2019 - July 2019</p>
                 </Cell>
                 <Cell col={8}>
                     <h4>Vserve Solutions</h4>
                     Bed Bath and Beyond
                     <br/>
                     <h5>Intern</h5>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p>Learned about technologies like Xamarin and Xaml and methodologies used in large scale app development.
+                    Incorporated those using the MVVM design pattern to work on a food ordering app during the term of the internship.
+                    </p>
                 </Cell>
             </Grid>
         </div>
