@@ -24,7 +24,7 @@ function Projects() {
     return (
         <div className="projectBG">
             
-            <Grid style={{ padding: '20px' }} className="projectGrid">
+            <Grid className="projectGrid">
                 <Cell expand col={5}>
                     <RenderCard title="Portfolio" text="I took up this website as a project to leverage my front end development skills"
                     tech="ReactJS, HTML, CSS" 

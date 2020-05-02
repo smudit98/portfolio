@@ -25,7 +25,6 @@ function App() {
             </Navigation>
           </Drawer>
           <Content>
-            <div className="page-content" />
             <Switch>
               <Route path="/home" component={() => <Home />} />
               <Route path="/resume" component={() => <Resume />} />

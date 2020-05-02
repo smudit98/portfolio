@@ -45,6 +45,7 @@ body{
   background-size: cover;
 }
 .projectGrid {
+  padding-top:10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -207,4 +208,5 @@ body{
 }
 .projectBG{
   background-color: #141414;
+  min-height: 100%;
 }
